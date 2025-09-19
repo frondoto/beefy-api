@@ -1,5 +1,22 @@
 [
   {
+    "address": "0x039E8275F90B0d07aA89451e2DeC089171057B80",
+    "lpAddress": "0xbf4f004307F623C2Fa2c6cf8Ce8095200e389B13",
+    "tokens": ["0x2B11834Ed1FeAEd4b4b3a86A6F571315E25A884D", "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913"],
+    "tokenOracleIds": ["MOCA", "USDC"],
+    "decimals": [18, 6],
+    "oracleId": "aerodrome-cow-base-moca-usdc",
+    "providerId": "aerodrome",
+    "rewardPool": {
+      "address": "0x2f4e4f84660A5bFE6e7A771DF830c553834C3F1B",
+      "oracleId": "aerodrome-cow-base-moca-usdc-rp"
+    },
+    "vault": {
+      "address": "0xA29D0B33B0508a3EAEe37054DEb72fFf783Ff270",
+      "oracleId": "aerodrome-cow-base-moca-usdc-vault"
+    }
+  },
+  {
     "address": "0x0382FbaBd1d26a187EA1efCa3aEf05a09982Bf73",
     "lpAddress": "0x50F8F7fFBD70c6C87b1668EEe4E03F5AC057DE3F",
     "tokens": ["0x11dC28D01984079b7efE7763b533e6ed9E3722B9", "0x4200000000000000000000000000000000000006"],
