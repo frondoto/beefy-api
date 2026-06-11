@@ -99,6 +99,20 @@ export const tokens = {
     documentation: 'https://developers.circle.com/docs',
     tags: ['STABLECOIN'],
   },
+  FIDD: {
+    name: 'Fidelity Digital Dollar',
+    symbol: 'FIDD',
+    oracleId: 'FIDD',
+    address: '0x7C135549504245B5eAe64fc0E99Fa5ebabb8e35D',
+    chainId: 1,
+    decimals: 18,
+    website: 'https://www.fidelitydigitalassets.com/',
+    description:
+      'FIDD is a USD-pegged stablecoin issued by Fidelity, backed by cash reserves, cash equivalents, and short-term U.S. Treasuries.',
+    bridge: 'native',
+    documentation: 'https://www.fidelitydigitalassets.com/',
+    tags: ['NO_TIMELOCK', 'STABLECOIN'],
+  },
   STG: {
     name: 'Stargate',
     symbol: 'STG',

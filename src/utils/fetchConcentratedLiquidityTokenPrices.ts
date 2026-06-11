@@ -36,6 +36,14 @@ const tokens: Partial<Record<keyof typeof ChainId, ConcentratedLiquidityToken[]>
     },
     {
       type: 'UniV3',
+      oracleId: 'FIDD',
+      decimalDelta: 1e12,
+      pool: '0xbb5b761415a58D944fcb81313b204f895637D20C',
+      firstToken: 'USDC',
+      secondToken: 'FIDD',
+    },
+    {
+      type: 'UniV3',
       oracleId: 'AXL',
       decimalDelta: 1,
       pool: '0x5B0d2536F0c970B8d9CBF3959460fb97Ce808Ade',
