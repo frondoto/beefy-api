@@ -15,6 +15,7 @@ export const providers = {
   ramses: {
     poolTradingRewardTokens: {
       arbitrum: [arbitrum.tokens.RAM, arbitrum.tokens.ARB],
+      robinhood: [robinhood.tokens.RAM],
     },
   },
   pancakeswap: {
